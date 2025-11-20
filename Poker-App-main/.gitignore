@@ -1,0 +1,85 @@
+# -----------------------------
+# Global / OS
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# -----------------------------
+# Environment files
+# -----------------------------
+.env
+.env.*
+*.env
+
+# -----------------------------
+# Python / Backend
+# -----------------------------
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/coverage.xml
+
+# Virtual environments
+venv/
+.env/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Poetry
+backend/.venv/
+backend/poetry.lock 
+
+# SQLite or other DB files
+*.db
+*.sqlite3
+
+# -----------------------------
+# Node / Frontend
+# -----------------------------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/.turbo/
+frontend/.cache/
+frontend/.eslintcache
+frontend/coverage/
+frontend/.jest-cache/
+frontend/.jest/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-data/
+*.pid
+
+# -----------------------------
+# Editor / IDE
+# -----------------------------
+.vscode/
+.vscode/*
+!.vscode/settings.json   
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.log
+*.bak
